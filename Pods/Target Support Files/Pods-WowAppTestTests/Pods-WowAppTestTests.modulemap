@@ -1,0 +1,6 @@
+framework module Pods_WowAppTestTests {
+  umbrella header "Pods-WowAppTestTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

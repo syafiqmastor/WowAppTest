@@ -1,0 +1,757 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E2740E6D0ADD01177BEB93C /* Pods_WowAppTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42A4AA27D25980E0DC7BDC7A /* Pods_WowAppTest.framework */; };
+		337889E51DE6E92C000888B2 /* UIImageView+roundedPolygonPath.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889E41DE6E92C000888B2 /* UIImageView+roundedPolygonPath.swift */; };
+		337889E91DE731A8000888B2 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889E81DE731A8000888B2 /* WebService.swift */; };
+		337889EB1DE732AB000888B2 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889EA1DE732AB000888B2 /* Users.swift */; };
+		337889ED1DE73351000888B2 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889EC1DE73351000888B2 /* ProfileViewController.swift */; };
+		337889EF1DE73A62000888B2 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889EE1DE73A62000888B2 /* Constant.swift */; };
+		337889F11DE747C4000888B2 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 337889F01DE747C4000888B2 /* MainViewController.swift */; };
+		33E9AF3F1DE6DDEB0004B348 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9AF3E1DE6DDEB0004B348 /* AppDelegate.swift */; };
+		33E9AF411DE6DDEB0004B348 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9AF401DE6DDEB0004B348 /* ViewController.swift */; };
+		33E9AF441DE6DDEB0004B348 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E9AF421DE6DDEB0004B348 /* Main.storyboard */; };
+		33E9AF461DE6DDEB0004B348 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33E9AF451DE6DDEB0004B348 /* Assets.xcassets */; };
+		33E9AF491DE6DDEB0004B348 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 33E9AF471DE6DDEB0004B348 /* LaunchScreen.storyboard */; };
+		33E9AF541DE6DDEB0004B348 /* WowAppTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9AF531DE6DDEB0004B348 /* WowAppTestTests.swift */; };
+		33E9AF5F1DE6DDEB0004B348 /* WowAppTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33E9AF5E1DE6DDEB0004B348 /* WowAppTestUITests.swift */; };
+		4F48063425BCB8CAEF995AC8 /* Pods_WowAppTestUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8888A9340C43891761C5C521 /* Pods_WowAppTestUITests.framework */; };
+		DE82817ABDB3BB80EE8AFAE5 /* Pods_WowAppTestTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D14910581FEC87B5645988A9 /* Pods_WowAppTestTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33E9AF501DE6DDEB0004B348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E9AF331DE6DDEB0004B348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E9AF3A1DE6DDEB0004B348;
+			remoteInfo = WowAppTest;
+		};
+		33E9AF5B1DE6DDEB0004B348 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33E9AF331DE6DDEB0004B348 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33E9AF3A1DE6DDEB0004B348;
+			remoteInfo = WowAppTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		09F778FE9FA6767383CB0EBE /* Pods-WowAppTestTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTestTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTestTests/Pods-WowAppTestTests.release.xcconfig"; sourceTree = "<group>"; };
+		1E1535DEDA4F60D7DDCEE455 /* Pods-WowAppTestTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTestTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTestTests/Pods-WowAppTestTests.debug.xcconfig"; sourceTree = "<group>"; };
+		337889E41DE6E92C000888B2 /* UIImageView+roundedPolygonPath.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+roundedPolygonPath.swift"; sourceTree = "<group>"; };
+		337889E81DE731A8000888B2 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		337889EA1DE732AB000888B2 /* Users.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		337889EC1DE73351000888B2 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		337889EE1DE73A62000888B2 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		337889F01DE747C4000888B2 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		33E9AF3B1DE6DDEB0004B348 /* WowAppTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WowAppTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E9AF3E1DE6DDEB0004B348 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		33E9AF401DE6DDEB0004B348 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		33E9AF431DE6DDEB0004B348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		33E9AF451DE6DDEB0004B348 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33E9AF481DE6DDEB0004B348 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		33E9AF4A1DE6DDEB0004B348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E9AF4F1DE6DDEB0004B348 /* WowAppTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowAppTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E9AF531DE6DDEB0004B348 /* WowAppTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppTestTests.swift; sourceTree = "<group>"; };
+		33E9AF551DE6DDEB0004B348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33E9AF5A1DE6DDEB0004B348 /* WowAppTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WowAppTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		33E9AF5E1DE6DDEB0004B348 /* WowAppTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WowAppTestUITests.swift; sourceTree = "<group>"; };
+		33E9AF601DE6DDEC0004B348 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42A4AA27D25980E0DC7BDC7A /* Pods_WowAppTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowAppTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		56F8315F6F4B08EE654A19F9 /* Pods-WowAppTestUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTestUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTestUITests/Pods-WowAppTestUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		6D8CFE6202BDC80ADEBB78F8 /* Pods-WowAppTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTest.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTest/Pods-WowAppTest.release.xcconfig"; sourceTree = "<group>"; };
+		79F06257280A6001E96829F3 /* Pods-WowAppTestUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTestUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTestUITests/Pods-WowAppTestUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8888A9340C43891761C5C521 /* Pods_WowAppTestUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowAppTestUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B1F7FA239EA23B0DD6F61851 /* Pods-WowAppTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WowAppTest.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WowAppTest/Pods-WowAppTest.debug.xcconfig"; sourceTree = "<group>"; };
+		D14910581FEC87B5645988A9 /* Pods_WowAppTestTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WowAppTestTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33E9AF381DE6DDEB0004B348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E2740E6D0ADD01177BEB93C /* Pods_WowAppTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF4C1DE6DDEB0004B348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DE82817ABDB3BB80EE8AFAE5 /* Pods_WowAppTestTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF571DE6DDEB0004B348 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4F48063425BCB8CAEF995AC8 /* Pods_WowAppTestUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33E9AF321DE6DDEB0004B348 = {
+			isa = PBXGroup;
+			children = (
+				33E9AF3D1DE6DDEB0004B348 /* WowAppTest */,
+				33E9AF521DE6DDEB0004B348 /* WowAppTestTests */,
+				33E9AF5D1DE6DDEB0004B348 /* WowAppTestUITests */,
+				33E9AF3C1DE6DDEB0004B348 /* Products */,
+				4659EDCEDD455674FE469E57 /* Pods */,
+				D35C2B8F7E26F9794B12F820 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		33E9AF3C1DE6DDEB0004B348 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33E9AF3B1DE6DDEB0004B348 /* WowAppTest.app */,
+				33E9AF4F1DE6DDEB0004B348 /* WowAppTestTests.xctest */,
+				33E9AF5A1DE6DDEB0004B348 /* WowAppTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33E9AF3D1DE6DDEB0004B348 /* WowAppTest */ = {
+			isa = PBXGroup;
+			children = (
+				33E9AF3E1DE6DDEB0004B348 /* AppDelegate.swift */,
+				33E9AF401DE6DDEB0004B348 /* ViewController.swift */,
+				337889EC1DE73351000888B2 /* ProfileViewController.swift */,
+				337889EE1DE73A62000888B2 /* Constant.swift */,
+				337889F01DE747C4000888B2 /* MainViewController.swift */,
+				337889E41DE6E92C000888B2 /* UIImageView+roundedPolygonPath.swift */,
+				337889E81DE731A8000888B2 /* WebService.swift */,
+				337889EA1DE732AB000888B2 /* Users.swift */,
+				33E9AF421DE6DDEB0004B348 /* Main.storyboard */,
+				33E9AF451DE6DDEB0004B348 /* Assets.xcassets */,
+				33E9AF471DE6DDEB0004B348 /* LaunchScreen.storyboard */,
+				33E9AF4A1DE6DDEB0004B348 /* Info.plist */,
+			);
+			path = WowAppTest;
+			sourceTree = "<group>";
+		};
+		33E9AF521DE6DDEB0004B348 /* WowAppTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				33E9AF531DE6DDEB0004B348 /* WowAppTestTests.swift */,
+				33E9AF551DE6DDEB0004B348 /* Info.plist */,
+			);
+			path = WowAppTestTests;
+			sourceTree = "<group>";
+		};
+		33E9AF5D1DE6DDEB0004B348 /* WowAppTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33E9AF5E1DE6DDEB0004B348 /* WowAppTestUITests.swift */,
+				33E9AF601DE6DDEC0004B348 /* Info.plist */,
+			);
+			path = WowAppTestUITests;
+			sourceTree = "<group>";
+		};
+		4659EDCEDD455674FE469E57 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B1F7FA239EA23B0DD6F61851 /* Pods-WowAppTest.debug.xcconfig */,
+				6D8CFE6202BDC80ADEBB78F8 /* Pods-WowAppTest.release.xcconfig */,
+				1E1535DEDA4F60D7DDCEE455 /* Pods-WowAppTestTests.debug.xcconfig */,
+				09F778FE9FA6767383CB0EBE /* Pods-WowAppTestTests.release.xcconfig */,
+				56F8315F6F4B08EE654A19F9 /* Pods-WowAppTestUITests.debug.xcconfig */,
+				79F06257280A6001E96829F3 /* Pods-WowAppTestUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D35C2B8F7E26F9794B12F820 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42A4AA27D25980E0DC7BDC7A /* Pods_WowAppTest.framework */,
+				D14910581FEC87B5645988A9 /* Pods_WowAppTestTests.framework */,
+				8888A9340C43891761C5C521 /* Pods_WowAppTestUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33E9AF3A1DE6DDEB0004B348 /* WowAppTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E9AF631DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTest" */;
+			buildPhases = (
+				08DF7E9F6511FDADDE3B6A3A /* [CP] Check Pods Manifest.lock */,
+				33E9AF371DE6DDEB0004B348 /* Sources */,
+				33E9AF381DE6DDEB0004B348 /* Frameworks */,
+				33E9AF391DE6DDEB0004B348 /* Resources */,
+				37CA061E517260CE70800950 /* [CP] Embed Pods Frameworks */,
+				5F9F4FA56A504B7A1D966A49 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WowAppTest;
+			productName = WowAppTest;
+			productReference = 33E9AF3B1DE6DDEB0004B348 /* WowAppTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33E9AF4E1DE6DDEB0004B348 /* WowAppTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E9AF661DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTestTests" */;
+			buildPhases = (
+				9C87FDADF9D0795811ADCBCF /* [CP] Check Pods Manifest.lock */,
+				33E9AF4B1DE6DDEB0004B348 /* Sources */,
+				33E9AF4C1DE6DDEB0004B348 /* Frameworks */,
+				33E9AF4D1DE6DDEB0004B348 /* Resources */,
+				AE0DD95C72A454C6BED51E9B /* [CP] Embed Pods Frameworks */,
+				551779715C21FBD2EAFF196D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E9AF511DE6DDEB0004B348 /* PBXTargetDependency */,
+			);
+			name = WowAppTestTests;
+			productName = WowAppTestTests;
+			productReference = 33E9AF4F1DE6DDEB0004B348 /* WowAppTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33E9AF591DE6DDEB0004B348 /* WowAppTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33E9AF691DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTestUITests" */;
+			buildPhases = (
+				F3A2FDDABDF22140F7B569F9 /* [CP] Check Pods Manifest.lock */,
+				33E9AF561DE6DDEB0004B348 /* Sources */,
+				33E9AF571DE6DDEB0004B348 /* Frameworks */,
+				33E9AF581DE6DDEB0004B348 /* Resources */,
+				037B697B900B81A247D349CA /* [CP] Embed Pods Frameworks */,
+				4C2C01E547627D4141F78C5D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33E9AF5C1DE6DDEB0004B348 /* PBXTargetDependency */,
+			);
+			name = WowAppTestUITests;
+			productName = WowAppTestUITests;
+			productReference = 33E9AF5A1DE6DDEB0004B348 /* WowAppTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33E9AF331DE6DDEB0004B348 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = Syafiq;
+				TargetAttributes = {
+					33E9AF3A1DE6DDEB0004B348 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z527P83V26;
+						ProvisioningStyle = Automatic;
+					};
+					33E9AF4E1DE6DDEB0004B348 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z527P83V26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33E9AF3A1DE6DDEB0004B348;
+					};
+					33E9AF591DE6DDEB0004B348 = {
+						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = Z527P83V26;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 33E9AF3A1DE6DDEB0004B348;
+					};
+				};
+			};
+			buildConfigurationList = 33E9AF361DE6DDEB0004B348 /* Build configuration list for PBXProject "WowAppTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33E9AF321DE6DDEB0004B348;
+			productRefGroup = 33E9AF3C1DE6DDEB0004B348 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33E9AF3A1DE6DDEB0004B348 /* WowAppTest */,
+				33E9AF4E1DE6DDEB0004B348 /* WowAppTestTests */,
+				33E9AF591DE6DDEB0004B348 /* WowAppTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33E9AF391DE6DDEB0004B348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E9AF491DE6DDEB0004B348 /* LaunchScreen.storyboard in Resources */,
+				33E9AF461DE6DDEB0004B348 /* Assets.xcassets in Resources */,
+				33E9AF441DE6DDEB0004B348 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF4D1DE6DDEB0004B348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF581DE6DDEB0004B348 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		037B697B900B81A247D349CA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTestUITests/Pods-WowAppTestUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		08DF7E9F6511FDADDE3B6A3A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		37CA061E517260CE70800950 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTest/Pods-WowAppTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4C2C01E547627D4141F78C5D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTestUITests/Pods-WowAppTestUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		551779715C21FBD2EAFF196D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTestTests/Pods-WowAppTestTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5F9F4FA56A504B7A1D966A49 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTest/Pods-WowAppTest-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9C87FDADF9D0795811ADCBCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AE0DD95C72A454C6BED51E9B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WowAppTestTests/Pods-WowAppTestTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F3A2FDDABDF22140F7B569F9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33E9AF371DE6DDEB0004B348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				337889EF1DE73A62000888B2 /* Constant.swift in Sources */,
+				337889ED1DE73351000888B2 /* ProfileViewController.swift in Sources */,
+				33E9AF411DE6DDEB0004B348 /* ViewController.swift in Sources */,
+				33E9AF3F1DE6DDEB0004B348 /* AppDelegate.swift in Sources */,
+				337889EB1DE732AB000888B2 /* Users.swift in Sources */,
+				337889E91DE731A8000888B2 /* WebService.swift in Sources */,
+				337889E51DE6E92C000888B2 /* UIImageView+roundedPolygonPath.swift in Sources */,
+				337889F11DE747C4000888B2 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF4B1DE6DDEB0004B348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E9AF541DE6DDEB0004B348 /* WowAppTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33E9AF561DE6DDEB0004B348 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33E9AF5F1DE6DDEB0004B348 /* WowAppTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33E9AF511DE6DDEB0004B348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E9AF3A1DE6DDEB0004B348 /* WowAppTest */;
+			targetProxy = 33E9AF501DE6DDEB0004B348 /* PBXContainerItemProxy */;
+		};
+		33E9AF5C1DE6DDEB0004B348 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33E9AF3A1DE6DDEB0004B348 /* WowAppTest */;
+			targetProxy = 33E9AF5B1DE6DDEB0004B348 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33E9AF421DE6DDEB0004B348 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E9AF431DE6DDEB0004B348 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		33E9AF471DE6DDEB0004B348 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33E9AF481DE6DDEB0004B348 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33E9AF611DE6DDEC0004B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		33E9AF621DE6DDEC0004B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33E9AF641DE6DDEC0004B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B1F7FA239EA23B0DD6F61851 /* Pods-WowAppTest.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		33E9AF651DE6DDEC0004B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D8CFE6202BDC80ADEBB78F8 /* Pods-WowAppTest.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		33E9AF671DE6DDEC0004B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E1535DEDA4F60D7DDCEE455 /* Pods-WowAppTestTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WowAppTest.app/WowAppTest";
+			};
+			name = Debug;
+		};
+		33E9AF681DE6DDEC0004B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09F778FE9FA6767383CB0EBE /* Pods-WowAppTestTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WowAppTest.app/WowAppTest";
+			};
+			name = Release;
+		};
+		33E9AF6A1DE6DDEC0004B348 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 56F8315F6F4B08EE654A19F9 /* Pods-WowAppTestUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WowAppTest;
+			};
+			name = Debug;
+		};
+		33E9AF6B1DE6DDEC0004B348 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79F06257280A6001E96829F3 /* Pods-WowAppTestUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = Z527P83V26;
+				INFOPLIST_FILE = WowAppTestUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.syator.WowAppTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = WowAppTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33E9AF361DE6DDEB0004B348 /* Build configuration list for PBXProject "WowAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E9AF611DE6DDEC0004B348 /* Debug */,
+				33E9AF621DE6DDEC0004B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E9AF631DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E9AF641DE6DDEC0004B348 /* Debug */,
+				33E9AF651DE6DDEC0004B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E9AF661DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E9AF671DE6DDEC0004B348 /* Debug */,
+				33E9AF681DE6DDEC0004B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33E9AF691DE6DDEC0004B348 /* Build configuration list for PBXNativeTarget "WowAppTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33E9AF6A1DE6DDEC0004B348 /* Debug */,
+				33E9AF6B1DE6DDEC0004B348 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33E9AF331DE6DDEB0004B348 /* Project object */;
+}
